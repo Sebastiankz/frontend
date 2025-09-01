@@ -1,1 +1,1 @@
-# frontend
+Members: Sebastian Olivo, Jhonatan Romero
