@@ -63,6 +63,7 @@ a:hover {
   align-items: center;
   border: 1px solid black;
   border-radius: 50px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -903,3 +904,4 @@ button:hover {
     padding: 20px 15px;
   }
 }
+
