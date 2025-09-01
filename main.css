@@ -310,11 +310,17 @@ footer > a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #eeeeee;
 }
 
 .projectItem div:first-child {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #d9d9d9;
@@ -612,4 +618,288 @@ button:hover {
   background-color: transparent;
   border-radius: 50%;
   padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .headerContainer nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .headerContainer nav ul li {
+    margin: 0 8px;
+    font-size: 12px;
+  }
+
+  .searchBarContainer {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .pageColumns {
+    flex-direction: column;
+  }
+
+  .leftSide,
+  .mainContent,
+  .rightSide {
+    flex: none;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .projectGallery {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projectItem {
+    width: 120px;
+    height: 160px;
+  }
+
+  .projectItem div:first-child {
+    width: 90px;
+    height: 90px;
+  }
+
+  .contactPageContainer {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .contactLeft,
+  .contactRight {
+    flex: none;
+    padding: 40px 30px;
+  }
+
+  .contactLeft {
+    border-radius: 20px 20px 0 0;
+    min-height: 50vh;
+  }
+
+  .contactRight {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .contactLeft h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .contactRight h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .nameInputs {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mainContent article {
+    padding: 20px;
+    min-height: 100px;
+  }
+
+  .workSection {
+    padding: 15px;
+  }
+
+  .jobsList,
+  .jobsMap,
+  .pageInfo {
+    padding: 12px;
+  }
+
+  .pageInfo div:first-child {
+    width: 80px;
+    height: 80px;
+  }
+
+  .pageInfo h2 {
+    font-size: 16px;
+  }
+
+  .pageInfo p {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .headerContainer {
+    padding: 8px 15px;
+  }
+
+  .headerContainer nav ul {
+    display: none;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profileContainer {
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .profileIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .leftSide,
+  .mainContent,
+  .rightSide {
+    padding: 10px;
+  }
+
+  .mainContent header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .mainContent header div:first-child {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+  }
+
+  .mainContent header button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .projectGallery {
+    gap: 5px;
+  }
+
+  .projectItem {
+    width: 100px;
+    height: 140px;
+  }
+
+  .projectItem div:first-child {
+    width: 70px;
+    height: 70px;
+  }
+
+  .projectItem p {
+    font-size: 10px;
+  }
+
+  .profileSummary {
+    margin: 10px 0;
+    padding-top: 15px;
+  }
+
+  .profilePicture {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contactLinks {
+    margin: 30px 0 15px 0;
+    padding-left: 20px;
+  }
+
+  .suggestions {
+    padding: 10px;
+  }
+
+  .suggestionItem div:first-child {
+    width: 30px;
+    height: 30px;
+  }
+
+  .jobsMap div {
+    height: 150px;
+  }
+
+  .contactPageContainer {
+    margin: 10px;
+  }
+
+  .contactLeft,
+  .contactRight {
+    padding: 30px 20px;
+  }
+
+  .contactLeft h1 {
+    font-size: 28px;
+  }
+
+  .contactRight h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .contactInfo {
+    gap: 25px;
+  }
+
+  .contactItem h3 {
+    font-size: 16px;
+  }
+
+  .contactItem p {
+    font-size: 14px;
+  }
+
+  .contactForm {
+    gap: 20px;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .submitBtn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .headerContainer {
+    padding: 5px 10px;
+  }
+
+  .searchBarContainer input {
+    font-size: 12px;
+  }
+
+  .leftSide,
+  .mainContent,
+  .rightSide {
+    padding: 8px;
+  }
+
+  .contactLeft h1 {
+    font-size: 28px;
+  }
+
+  .contactRight h1 {
+    font-size: 24px;
+  }
+
+  .contactLeft,
+  .contactRight {
+    padding: 20px 15px;
+  }
 }
