@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Jobs Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerContainer">
+        <div class="logo"></div>
+        <div class="searchBarContainer">
+          <input
+            type="search"
+            id="search"
+            name="search"
+            placeholder="Search..."
+          />
+          <button type="submit">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              role="img"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <line x1="16.5" y1="16.5" x2="21" y2="21" />
+            </svg>
+          </button>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Companies</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Profiles</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Jobs</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Messages</a>
+            </li>
+            <li>
+              <div class="icon"></div>
+              <a href="#">Notification</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="profileContainer">
+          <div class="profileIcon"></div>
+          <a href="#">Profile ▼</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="pageColumns">
+      <div class="leftSide">
+        <div class="profileSummary">
+          <div class="profilePicture"></div>
+          <h3>Profile Name</h3>
+          <p id="profession">Profession</p>
+          <div class="contactLinks">
+            <p><a href="#">Contact info1</a></p>
+            <p><a href="#">Contact info2</a></p>
+            <p><a href="#">Contact info3</a></p>
+          </div>
+          <div class="hr"></div>
+          <button id="viewProfileButton">View Profile</button>
+        </div>
+
+        <div class="suggestions">
+          <h3>Suggestions</h3>
+
+          <div class="suggestionItem">
+            <div></div>
+            <a href="#" for="profile1">Profile1</a>
+          </div>
+          <div class="suggestionItem">
+            <div></div>
+            <a href="#" for="profile2">Profile2</a>
+          </div>
+          <div class="suggestionItem">
+            <div></div>
+            <a href="#" for="profile3">Profile3</a>
+          </div>
+          <div class="suggestionItem">
+            <div></div>
+            <a href="#" for="profile4">Profile4</a>
+          </div>
+        </div>
+
+        <footer>
+          <a href="#">Help Center</a> | <a href="#">About</a> |
+          <a href="#">Privacy policy</a> |
+          <a href="contactUs.html">Contact Us</a> |
+          <a href="#">Cookies Policy</a> | <a href="#">Language</a> | <br />
+          <a href="#">Community Guidelines</a> |
+          <a href="#">Career</a>
+        </footer>
+      </div>
+
+      <div class="mainContent">
+        <section>
+          <header>
+            <div></div>
+            <h2>Hey! What's new?</h2>
+            <button>Post a Project</button>
+            <button>Post a Job</button>
+          </header>
+
+          <article>
+            <p>...</p>
+          </article>
+
+          <section class="workSection">
+            <h3>My Work</h3>
+            <div class="projectGallery">
+              <button>&lt;</button>
+              <div class="projectItem">
+                <div></div>
+                <p>Project Name</p>
+              </div>
+              <div class="projectItem">
+                <div></div>
+                <p>Project Name</p>
+              </div>
+              <div class="projectItem">
+                <div></div>
+                <p>Project Name</p>
+              </div>
+              <div class="projectItem">
+                <div></div>
+                <p>Project Name</p>
+              </div>
+              <button>&gt;</button>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <div class="rightSide">
+        <section class="pageInfo">
+          <div></div>
+          <h2>PAGE NAME</h2>
+          <p>Some hook or message</p>
+        </section>
+
+        <section class="jobsMap">
+          <h3>Find Jobs Near You</h3>
+          <div>
+            <p>(Map Image)</p>
+          </div>
+        </section>
+
+        <section class="jobsList">
+          <h3>Top Jobs</h3>
+          <article class="jobItem">
+            <h4>Job1</h4>
+            <p>Description</p>
+            <p>$price/hr</p>
+          </article>
+          <article class="jobItem">
+            <h4>Job2</h4>
+            <p>Description</p>
+            <p>$price/hr</p>
+          </article>
+          <article class="jobItem">
+            <h4>Job3</h4>
+            <p>Description</p>
+            <p>$price/hr</p>
+          </article>
+          <article class="jobItem">
+            <h4>Job4</h4>
+            <p>Description</p>
+            <p>$price/hr</p>
+          </article>
+        </section>
+
+        <section class="jobsList">
+          <h3>Most Viewed This Week</h3>
+          <article class="jobItem">
+            <h4>Job1</h4>
+            <p>description</p>
+            <p>$price/hr</p>
+          </article>
+          <article class="jobItem">
+            <h4>Job2</h4>
+            <p>description</p>
+            <p>$price/hr</p>
+          </article>
+          <article class="jobItem">
+            <h4>Job3</h4>
+            <p>description</p>
+            <p>$price/hr</p>
+          </article>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
